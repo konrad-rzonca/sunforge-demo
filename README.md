@@ -11,5 +11,3 @@ gh workflow run deploy.yml --repo konrad-rzonca/sunforge-demo -f tag=<release ta
 ```
 
 The site's custom domain is set in the repository's Pages settings, with its source on GitHub Actions. The domain's `demo` record is a CNAME to `konrad-rzonca.github.io` at Porkbun.
-
-GitHub Pages serves at most 1 GB a site and about 100 GB a month, which is about 690 first visits to a 145 MB build.
